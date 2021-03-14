@@ -3,9 +3,17 @@ import styles from '../styles/Home.module.css'
 
 import Link from 'next/link'
 
+import Image from 'next/image';
+
 export default function Home() {
   return (
     <div className={styles.container}>
+      <Image
+        src="/images/PokemonApiLogo.png"
+        height={175}
+        width={400}
+        alt="Pokemon API The Remake"
+        />
       <Head>
         <title>Create Next App</title>
         <link rel="icon" href="/favicon.ico" />
