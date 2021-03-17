@@ -3,13 +3,13 @@ import Head from 'next/head'
 import Layout from '../../components/Layout'
 
 
-export default function pokepage() {
+export default function PokePage(props) {
     return (
         <Layout>
             <Head>
                 <title>Pokemon Page!</title>
             </Head>
-            <h1>Pokemon Will Be Here</h1>
+            {/* <h2>{props.pokemon}</h2> */}
             <h2>
                 <Link href="/">
                     <a>Back to home</a>
